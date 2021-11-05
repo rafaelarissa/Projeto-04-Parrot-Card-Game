@@ -1,0 +1,71 @@
+body {
+    background-color: #EEF9BF;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #75B79E;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 58px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.carta {
+    background-color: #A7E9AF;
+    /* background-image: url("assets/front.png");
+    background-size: 100px; */
+
+    width: 117px;
+    height: 146px;
+    border: 1px solid #99CEA8;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.carta img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    padding: 24px 7px 22px 10px;
+}
+
+@media(max-width: 335px) {
+    header {       
+        width: 100%;
+        padding-top: 47px;
+
+        font-style: normal;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+
+        
+    }
+
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 36px;
+
+
+    }
+}
